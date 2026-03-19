@@ -1,6 +1,6 @@
 # BridgeGuard-AI: Autonomous Multi-Agent Inspection Swarm
 
-![Title](https://raw.githubusercontent.com/username/repo/main/images/title_diagram.png)
+![Title](https://raw.githubusercontent.com/aniket-work/BridgeGuard-AI/main/images/title_diagram.png)
 
 > **Autonomous multi-agent inspection system for critical infrastructure using graph-based navigation and dynamic auctions.**
 
@@ -8,7 +8,7 @@
 
 BridgeGuard-AI is an experimental Proof-of-Concept (PoC) demonstrating how a swarm of autonomous drones can coordinate the inspection of complex structural environments like bridges. By representing the structure as a mathematical graph and employing a dynamic auction-based task allocation system, the swarm can optimize for efficiency, battery usage, and sensor compatibility without centralized control.
 
-![Architecture](https://raw.githubusercontent.com/username/repo/main/images/architecture_diagram.png)
+![Architecture](https://raw.githubusercontent.com/aniket-work/BridgeGuard-AI/main/images/architecture_diagram.png)
 
 ## Key Features
 
@@ -19,7 +19,7 @@ BridgeGuard-AI is an experimental Proof-of-Concept (PoC) demonstrating how a swa
 
 ## System Architecture
 
-![Sequence](https://raw.githubusercontent.com/username/repo/main/images/sequence_diagram.png)
+![Sequence](https://raw.githubusercontent.com/aniket-work/BridgeGuard-AI/main/images/sequence_diagram.png)
 
 The system consists of three primary components:
 - **Bridge Environment**: A simulated structural graph with heterogenous inspection requirements.
@@ -28,7 +28,7 @@ The system consists of three primary components:
 
 ## Workflow
 
-![Flow](https://raw.githubusercontent.com/username/repo/main/images/flow_diagram.png)
+![Flow](https://raw.githubusercontent.com/aniket-work/BridgeGuard-AI/main/images/flow_diagram.png)
 
 1. Initial structural scan creates the graph.
 2. Drones initialize at designated docking points.
@@ -38,8 +38,8 @@ The system consists of three primary components:
 ## Installation
 
 ```bash
-git clone https://github.com/username/repo.git
-cd repo
+git clone https://github.com/aniket-work/BridgeGuard-AI.git
+cd BridgeGuard-AI
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -53,7 +53,7 @@ python simulation.py
 
 ## Visual Results
 
-![Simulation Results](https://raw.githubusercontent.com/username/repo/main/images/title-animation.gif)
+![Simulation Results](https://raw.githubusercontent.com/aniket-work/BridgeGuard-AI/main/images/title-animation.gif)
 
 ---
 *Disclaimer: This project is an experimental PoC. It is intended for educational and research purposes and is not certified for real-world infrastructure safety inspections.*
